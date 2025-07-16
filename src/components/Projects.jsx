@@ -1,10 +1,16 @@
 import Cards from "./Cards"
+import boom from "../assets/BoomNaBorrow.png"
+import simon from "../assets/simon-game.png"
+import movie from "../assets/movie-app.png"
+import port from "../assets/portfolio.png"
+
+
 
 function Projects() {
     return (
         <>
             <div className="projects fl">
-                <h1 className="text-2xl font-bold py-5">Projects</h1>
+                <h1 className="text-xl font-bold py-5">Projects</h1>
                 <div className="grid grid-flow-row grid-cols-2 gap-4 flex pb-20">
                     <div className="">
                         <Cards
@@ -12,7 +18,7 @@ function Projects() {
                             subtitle={"An Equipment Borrowing System used to ease the booking and tracking of items that are being rented or borrowed. This app helped me learn the major concepts of making a GUI."}
                             badge1={"Java"}
                             badge2={"Notepad"}
-                            picture={""}
+                            picture={boom}
                         />
                     </div>
                     <div className="">
@@ -21,7 +27,7 @@ function Projects() {
                             subtitle={"A simple game created in java. The objective of this game is to follow the the flashing lights around the four boxes in the screen. This app helped me learn and master panels in Java."}
                             badge1={"Java"}
                             badge2={"Notepad"}
-                            picture={""}
+                            picture={simon}
                         />
                     </div>
                     <div className="">
@@ -30,7 +36,7 @@ function Projects() {
                             subtitle={"It's this app!! This app is my attempt to fully create a website using react and tailwind css. This website taught me the fundamentals of tailwind css and react"}
                             badge1={"React"}
                             badge2={"Tailwind CSS"}
-                            picture={""}
+                            picture={port}
                         />
                     </div>
                     <div className="">
@@ -39,7 +45,7 @@ function Projects() {
                             subtitle={"This app shows a gallery of the most popular movies while also being able to search and add to favorites movies. This app gave me an introductory insights into web-development "}
                             badge1={"React"}
                             badge2={"Javascript"}
-                            picture={""}
+                            picture={movie}
                         />
                     </div>
 

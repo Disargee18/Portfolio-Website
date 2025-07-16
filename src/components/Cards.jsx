@@ -5,7 +5,7 @@ function Cards({title, subtitle, picture, badge1, badge2}) {
             <div>
                 <div className="card bg-base-100 w-80 shadow-sm py-11 bg-gray-500">
                     <figure>
-                        <img
+                        <img className="w-80 h-50"
                             src={picture}
                             alt="Shoes" />  
                     </figure>

@@ -4,7 +4,7 @@ function InfoCard({ logo, title, subtitle, date }) {
         <div className="gap-4 py-4 flex justify-between">
             <div className="infoCard flex items-start">
                 <div className='image'>
-                    <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
+                    <img src={logo} alt="logo" className="w-20 h-20 object-contain mr-5" />
                 </div>
                 <div>
                     <h1 className="text-lg font-medium">{title}</h1>
